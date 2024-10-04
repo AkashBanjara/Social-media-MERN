@@ -29,7 +29,7 @@ app.use(cors({
 }));
 
 
-const PORT =process.env.PORT || 4001;
+const PORT =process.env.PORT || 4000;
 
 app.use("/auth", authRouter)
 app.use("/posts", postRouter)
