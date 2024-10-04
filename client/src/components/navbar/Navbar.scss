@@ -1,0 +1,42 @@
+.Navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding-top: 5px;
+    height: 60px;
+    border-bottom: 1px solid var(--border-color);
+    background-color: rgb(233, 230, 230);
+
+    img{
+        filter: drop-shadow(5px 5px 10px gray);
+    }
+    .container{
+        max-width: 960px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-inline: auto;
+    }
+    .right-side{
+       display: flex;
+       gap: 30px;
+       align-items: center;
+       
+       .profile{
+
+        img{
+            border: 1px solid grey;
+            width: 40px;
+            height: 40px;
+        }
+       
+       }
+
+
+       .logout{
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+       }
+    }
+}
