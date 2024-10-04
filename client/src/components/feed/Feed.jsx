@@ -26,7 +26,7 @@ const Feed = () => {
         </div>
         <div className="right-part">
           <div className="following">
-            <h3 className="title">{feedData?.length > 0 ? "You are following": ""}</h3>
+            <h3 className="title">You are following</h3>
          {feedData?.
 followings?.map((user)=> <Follower key={Math.random()} user={user} /> )}
           </div>
