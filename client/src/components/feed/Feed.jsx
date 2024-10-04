@@ -14,7 +14,6 @@ const Feed = () => {
     dispatch(getFeedData());
   }, [dispatch]);
 
-  console.log("aakash");
 
   return (
     <div className="Feed ">
