@@ -25,7 +25,7 @@ app.use(morgan('common'));
 app.use(cookieParser())
 app.use(cors({
     credentials: true,
-    origin: 'https://social-hub-pink.vercel.app/'
+    origin: 'https://social-hub-pink.vercel.app'
 }));
 
 
