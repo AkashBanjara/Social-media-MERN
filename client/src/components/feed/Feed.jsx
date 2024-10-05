@@ -13,6 +13,7 @@ const Feed = () => {
   useEffect(() => {
     dispatch(getFeedData());
   }, [dispatch]);
+  console.log('Aakash');
 
 
   return (
